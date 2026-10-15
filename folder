@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kwinten VDS 🐢</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #062b3d, #087f8c);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px 50px;
+    }
+
+    .logo {
+      font-size: 90px;
+      margin-top: 10px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 5px 0;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .folder {
+      background: rgba(255,255,255,0.12);
+      border-radius: 25px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .folder h2 {
+      font-size: 28px;
+    }
+
+    .buttons {
+      display: grid;
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .button {
+      display: block;
+      padding: 18px;
+      border-radius: 15px;
+      background: white;
+      color: #064052;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      transform: scale(1.03);
+      background: #dffcff;
+    }
+
+    .about {
+      margin-top: 30px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 35px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="logo">🐢</div>
+
+    <h1>KWINTEN VDS</h1>
+
+    <div class="subtitle">
+      🐢 Schildpadden zijn mijn passie 🐢
+    </div>
+
+    <div class="folder">
+
+      <h2>Welkom op mijn website!</h2>
+
+      <p>
+        Ontdek mijn website, muziek, Turtle World en CaluShop.
+      </p>
+
+      <div class="buttons">
+
+        <a class="button" href="https://kwintenvds.be" target="_blank">
+          🌐 Mijn website
+        </a>
+
+        <a class="button" href="https://suno.com/kwintenschildje" target="_blank">
+          🎵 Mijn muziek
+        </a>
+
+        <a class="button" href="https://kwintenschildje.github.io/Turtle-World/" target="_blank">
+          🎮 Turtle World
+        </a>
+
+        <a class="button" href="https://calushop.be/" target="_blank">
+          🛍️ CaluShop
+        </a>
+
+      </div>
+
+      <div class="about">
+        <h2>🐢 Mijn passie</h2>
+        <p>
+          Ik hou van schildpadden en daarom staat de schildpad centraal
+          in mijn projecten en mijn website!
+        </p>
+      </div>
+
+    </div>
+
+    <footer>
+      🐢 Kwinten VDS • Schildpadden zijn mijn passie
+    </footer>
+
+  </div>
+
+</body>
+</html>
